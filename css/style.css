@@ -8,7 +8,7 @@
 
 :root {
     --lightblue: #b4d0e7;
-    --blue-botton: #0061ff;
+    --blue-button: #0061ff;
     --green-square: #a2d39b;
     --brown: #61082b;
     --lightblue-square: #0093ce;
@@ -17,6 +17,7 @@
     --blue-square: #0d2481;
     --yellow-square: #ffd830;
     --bg-footer: #000000;
+    --primary-color: #ffffff;
 }
 
 html {
@@ -37,7 +38,7 @@ body {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica, sans-serif;
 }
 
-/* Header */
+/* nav */
 
 ul {
     list-style: none;
@@ -53,9 +54,7 @@ nav {
     background-color: #ffffff;
 }
 
-header{
-    background-color: var(--lightblue);
-}
+
 
 .n-flex {
     display: flex;
@@ -69,13 +68,48 @@ li img{
     max-width: 100px;
 }
 
+ul{
+    padding: 10px;
+}
+
 li {
     padding: 10px;
 }
 
-/* Main */
+.blue-button{
+    padding: 7px 15px;
+    background-color: var(--blue-button);
+    text-align: center;
+    width: fit-content;
+    color: var(--primary-color);
+    margin: 15px 0;
+}
+
+/* Header */
+
+header{
+    background-color: var(--lightblue);
+    position: relative;
+    height: 640px;
+}
 
 h1{
     font-size: 70px;
     font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+.h-flex{
+    align-items: flex-start;
+}
+
+#jumbo{
+    max-width: 700px;
+    display: block;
+    overflow: visible;
+}
+
+i.fa-arrow-down{
+    font-size: 45px;
+    padding-top: 45px;
 }
