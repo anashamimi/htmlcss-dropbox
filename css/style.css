@@ -21,6 +21,7 @@
     --border: #d0d0d3;
     --grey: #858586;
     --link: #2929f0;
+    --whitesmoke: #f5f5f5;
 }
 
 html {
@@ -55,6 +56,7 @@ nav {
     z-index: 1000;
     border-bottom: 2px solid lightgrey;
     background-color: #ffffff;
+    position: fixed;
 }
 
 
@@ -86,6 +88,7 @@ ul.n-flex li {
     width: fit-content;
     color: var(--primary-color);
     margin: 15px 0;
+    cursor: pointer;
 }
 
 /* Header */
@@ -182,6 +185,7 @@ h3 {
 .link {
     color: var(--link);
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .border {
@@ -284,6 +288,57 @@ h3 {
 
 /* Section square */
 
-.container-large{
-    width: 100%;
+.square-flex{    
+    flex-flow: row wrap;
+    align-items: stretch;
+    align-content: center;
+}
+
+.big-square{
+    width: calc(100% / 3);
+}
+
+.square{
+    width: 50%;
+    text-align: center;
+}
+
+.square img{
+    width: 50%;
+}
+
+.green{
+    background-color: var(--green-square);
+}
+
+.brown{
+    background-color: var(--brown);
+}
+
+.lightblue{
+    background-color: var(--lightblue-square);
+}
+
+.red{
+    background-color: var(--red-square);
+}
+
+.whitesmoke{
+    background-color: var(--whitesmoke);
+}
+
+.dark-red{
+    background-color: var(--darkred-square);
+}
+
+.skyblue{
+    background-color: var(--lightblue);
+}
+
+.blue{
+    background-color: var(--blue-square);
+}
+
+.yellow{
+    background-color: var(--yellow-square);
 }
