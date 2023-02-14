@@ -117,10 +117,15 @@ i.fa-arrow-down {
     padding-top: 45px;
 }
 
+input{
+    margin: 25px 0;
+}
+
 /* Main */
 
 h2 {
-    padding-top: 100px;
+    padding: 100px 0 20px;
+    font-size: 33px;
 }
 
 .radio {
@@ -221,11 +226,42 @@ h3 {
     padding: 0;
 }
 
-.padding p{
+.start .padding p{
     padding: 40px 0 0;
 }
 
 .margin-button{
     margin: 0 10px;
     width: 40%;
+}
+
+/* Section Partner */
+
+.img-partner{
+    width: 65%;
+}
+
+.p-partner{
+    padding: 20px 0;
+}
+
+.partner-button{
+    border: 1px solid var(--bg-footer);
+    width: fit-content;
+    padding: 10px;
+}
+
+/* Section cards */
+
+.card{
+    width: calc((100% / 3) - 20px);
+}
+
+.card img{
+    max-width: 100%;
+}
+
+.card-flex{
+    flex-flow: row wrap;
+    gap: 30px 10px;
 }
