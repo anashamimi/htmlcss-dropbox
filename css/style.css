@@ -150,6 +150,10 @@ h2 {
     font-weight: bold;
 }
 
+.space{
+    padding-bottom: 20px;
+}
+
 .grey {
     color: var(--grey);
 }
@@ -204,4 +208,24 @@ h3 {
 .same-height{
     align-items: stretch;
     flex-flow: row wrap;
+}
+
+.piano-finale{
+    margin-top: 50px;
+    width: 100%;
+    border: 1px solid var(--border);
+}
+
+.start{
+    align-items:first baseline;
+    padding: 0;
+}
+
+.padding p{
+    padding: 40px 0 0;
+}
+
+.margin-button{
+    margin: 0 10px;
+    width: 40%;
 }
