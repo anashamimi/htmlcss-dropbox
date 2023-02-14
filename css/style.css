@@ -18,6 +18,9 @@
     --yellow-square: #ffd830;
     --bg-footer: #000000;
     --primary-color: #ffffff;
+    --border: #d0d0d3;
+    --grey: #858586;
+    --link: #2929f0;
 }
 
 html {
@@ -64,19 +67,19 @@ nav {
     padding: 10px 0;
 }
 
-li img{
+li img {
     max-width: 100px;
 }
 
-ul{
+ul.n-flex {
     padding: 10px;
 }
 
-li {
+ul.n-flex li {
     padding: 10px;
 }
 
-.blue-button{
+.blue-button {
     padding: 7px 15px;
     background-color: var(--blue-button);
     text-align: center;
@@ -87,29 +90,118 @@ li {
 
 /* Header */
 
-header{
+header {
     background-color: var(--lightblue);
     position: relative;
-    height: 640px;
 }
 
-h1{
+h1 {
     font-size: 70px;
     font-weight: bolder;
     padding-bottom: 20px;
 }
 
-.h-flex{
+.h-flex {
     align-items: flex-start;
 }
 
-#jumbo{
+#jumbo {
     max-width: 700px;
     display: block;
     overflow: visible;
+    margin-bottom: -65px;
 }
 
-i.fa-arrow-down{
+i.fa-arrow-down {
     font-size: 45px;
     padding-top: 45px;
+}
+
+/* Main */
+
+h2 {
+    padding-top: 100px;
+}
+
+.radio {
+    padding-right: 50px;
+}
+
+.piano {
+    width: calc((100% / 3) - 20px);
+    border: 1px solid var(--border);
+}
+
+
+.center-piano {
+    margin: 0 10px;
+}
+
+.center {
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+}
+
+.padding {
+    padding: 30px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.grey {
+    color: var(--grey);
+}
+
+.piano div.center {
+    padding: 15px 0;
+}
+
+.piano div {
+    font-size: 15px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.free {
+    width: 100%;
+}
+
+.link {
+    color: var(--link);
+    text-decoration: underline;
+}
+
+.border {
+    width: 25%;
+    border-bottom: 1px solid var(--border);
+    margin: 50px 0;
+}
+
+.check {
+    padding: 10px 0;
+}
+
+.check li {
+    text-indent: -1.0em;
+    padding: 10px 1rem;
+}
+
+.check li::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+    color: var(--blue-button);
+}
+  
+  .elemento {
+    padding-bottom: 20px;
+}
+
+.same-height{
+    align-items: stretch;
+    flex-flow: row wrap;
 }
