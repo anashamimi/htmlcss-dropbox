@@ -264,4 +264,26 @@ h3 {
 .card-flex{
     flex-flow: row wrap;
     gap: 30px 10px;
+    padding: 30px 0;
+}
+
+.card h3{
+    padding-bottom: 30px;
+}
+
+/* Section utilizzo */
+
+.utilizzo{
+    max-width: 55%;
+    padding: 40px 0;
+}
+
+.utilizzo h2{
+    padding-bottom: 5rem;
+}
+
+/* Section square */
+
+.container-large{
+    width: 100%;
 }
