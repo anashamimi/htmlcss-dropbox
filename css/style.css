@@ -96,6 +96,7 @@ ul.n-flex li {
 header {
     background-color: var(--lightblue);
     position: relative;
+    padding-top: 80px;
 }
 
 h1 {
@@ -126,9 +127,12 @@ input{
 
 /* Main */
 
-h2 {
-    padding: 100px 0 20px;
+h2 {    
     font-size: 33px;
+}
+
+.padding-h2{
+    padding: 100px 0 20px;
 }
 
 .radio {
@@ -361,4 +365,61 @@ h3 {
 
 .business{
     background-color: var(--lightblue);
+    padding: 5rem 0;
 }
+
+.buisness-flex{
+    align-items: first baseline;
+}
+
+.business h2{
+    width: 50%;
+    color: var(--brown);
+    font-weight: 700;
+}
+
+.buisness-button{
+    background-color: var(--primary-color);
+    cursor: pointer;
+    padding: 10px 30px;
+}
+
+/* section answer */
+
+.answer-padding{
+    padding: 5rem 0;
+}
+
+.answer-padding h2{
+    padding-bottom: 30px;
+}
+
+.answers{
+    padding: 30px 0;
+    border-top: 1px solid black;
+    position: relative;   
+    cursor: pointer; 
+    transition: background-color 1s;
+}
+
+.answers:hover{
+    background-color: #f2efeb;
+}
+
+.answers:last-child{
+    border-bottom: 1px solid black;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    padding: 20px;
+}
+
+.answers:active .dropdown {
+    display: block;
+    position: relative;
+}
+
+/* Footer */
+
