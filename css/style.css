@@ -121,17 +121,17 @@ i.fa-arrow-down {
     padding-top: 45px;
 }
 
-input{
+input {
     margin: 25px 0;
 }
 
 /* Main */
 
-h2 {    
+h2 {
     font-size: 33px;
 }
 
-.padding-h2{
+.padding-h2 {
     padding: 100px 0 20px;
 }
 
@@ -162,7 +162,7 @@ h2 {
     font-weight: bold;
 }
 
-.space{
+.space {
     padding-bottom: 20px;
 }
 
@@ -213,47 +213,47 @@ h3 {
     content: "\f00c";
     color: var(--blue-button);
 }
-  
-  .elemento {
+
+.elemento {
     padding-bottom: 20px;
 }
 
-.same-height{
+.same-height {
     align-items: stretch;
     flex-flow: row wrap;
 }
 
-.piano-finale{
+.piano-finale {
     margin-top: 50px;
     width: 100%;
     border: 1px solid var(--border);
 }
 
-.start{
-    align-items:first baseline;
+.start {
+    align-items: first baseline;
     padding: 0;
 }
 
-.start .padding p{
+.start .padding p {
     padding: 40px 0 0;
 }
 
-.margin-button{
+.margin-button {
     margin: 0 10px;
     width: 40%;
 }
 
 /* Section Partner */
 
-.img-partner{
+.img-partner {
     width: 65%;
 }
 
-.p-partner{
+.p-partner {
     padding: 20px 0;
 }
 
-.partner-button{
+.partner-button {
     border: 1px solid var(--bg-footer);
     width: fit-content;
     padding: 10px;
@@ -261,50 +261,50 @@ h3 {
 
 /* Section cards */
 
-.card{
+.card {
     width: calc((100% / 3) - 20px);
 }
 
-.card img{
+.card img {
     max-width: 100%;
 }
 
-.card-flex{
+.card-flex {
     flex-flow: row wrap;
     gap: 30px 10px;
     padding: 30px 0;
 }
 
-.card h3{
+.card h3 {
     padding-bottom: 30px;
 }
 
 /* Section utilizzo */
 
-.utilizzo{
+.utilizzo {
     max-width: 55%;
     padding: 40px 0;
 }
 
-.utilizzo h2{
+.utilizzo h2 {
     padding-bottom: 5rem;
 }
 
 /* Section square */
 
-.square-flex{    
+.square-flex {
     flex-flow: row wrap;
     padding: 0;
 }
 
-.big-square{
+.big-square {
     width: calc(100% / 3);
     height: calc(100vw / 3);
     background-color: var(--whitesmoke);
     overflow-y: auto;
 }
 
-.square{
+.square {
     width: 50%;
     height: 50%;
     display: flex;
@@ -312,73 +312,73 @@ h3 {
     align-items: center;
 }
 
-.square img{
+.square img {
     width: 50%;
     filter: invert(1);
 }
 
-.middle-square{    
+.middle-square {
     padding: 30px;
 }
 
-.middle-square img{
+.middle-square img {
     width: 50%;
 }
 
-.middle-square div:last-of-type{
+.middle-square div:last-of-type {
     padding: 5rem 0 0;
 }
 
-.green{
+.green {
     background-color: var(--green-square);
 }
 
-.brown{
+.brown {
     background-color: var(--brown);
 }
 
-.lightblue{
+.lightblue {
     background-color: var(--lightblue-square);
 }
 
-.red{
+.red {
     background-color: var(--red-square);
 }
 
-.dark-red{
+.dark-red {
     background-color: var(--darkred-square);
 }
 
-.skyblue{
+.skyblue {
     background-color: var(--lightblue);
 }
 
-.blue{
+.blue {
     background-color: var(--blue-square);
 }
 
-.yellow{
+.yellow {
     background-color: var(--yellow-square);
 }
 
 /* Section Dropbox Business */
 
-.business{
+.business {
     background-color: var(--lightblue);
     padding: 5rem 0;
 }
 
-.buisness-flex{
+.buisness-flex {
     align-items: first baseline;
 }
 
-.business h2{
+.business h2 {
     width: 50%;
     color: var(--brown);
     font-weight: 700;
 }
 
-.buisness-button{
+.buisness-button {
     background-color: var(--primary-color);
     cursor: pointer;
     padding: 10px 30px;
@@ -386,27 +386,27 @@ h3 {
 
 /* section answer */
 
-.answer-padding{
+.answer-padding {
     padding: 5rem 0;
 }
 
-.answer-padding h2{
+.answer-padding h2 {
     padding-bottom: 30px;
 }
 
-.answers{
+.answers {
     padding: 30px 0;
     border-top: 1px solid black;
-    position: relative;   
-    cursor: pointer; 
+    position: relative;
+    cursor: pointer;
     transition: background-color 1s;
 }
 
-.answers:hover{
+.answers:hover {
     background-color: #f2efeb;
 }
 
-.answers:last-child{
+.answers:last-child {
     border-bottom: 1px solid black;
 }
 
@@ -414,6 +414,7 @@ h3 {
     display: none;
     position: absolute;
     padding: 20px;
+    transition: all 1s ease-in-out;
 }
 
 .answers:active .dropdown {
@@ -421,5 +422,73 @@ h3 {
     position: relative;
 }
 
+.fa-angle-down {
+    padding-right: 20px;
+}
+
 /* Footer */
 
+footer {
+    background-color: var(--bg-footer);
+    color: var(--primary-color);
+    padding: 5rem 0;
+    font-size: 13px;
+}
+
+footer h3 {
+    font-size: 20px;
+}
+
+ul li {
+    padding: 10px;
+}
+
+footer .border {
+    width: 10%;
+    margin-bottom: 20px
+}
+
+.lingua-flex {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 10px;
+    color: var(--grey);
+}
+
+.lingua-flex div {
+    cursor: pointer;
+}
+
+select {
+    border: none;
+    background-color: var(--bg-footer);
+    color: var(--grey);
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+select::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0d8";
+    color: var(--grey);
+    cursor: pointer;
+}
+
+a:link {
+    text-decoration: none
+}
+
+a:visited {
+    color: var(--primary-color);
+    text-decoration: none
+}
+
+li a:hover {
+    text-decoration: underline;
+}
