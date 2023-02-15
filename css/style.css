@@ -49,7 +49,6 @@ ul {
 }
 
 nav {
-    /* position: fixed; */
     width: 100%;
     height: 80px;
     top: 0;
@@ -73,12 +72,21 @@ li img {
     max-width: 100px;
 }
 
-ul.n-flex {
-    padding: 10px;
+nav li a{    
+    cursor: pointer;
+    padding: 28px 10px;
 }
 
-ul.n-flex li {
-    padding: 10px;
+nav li a{
+    color: var(--bg-footer);
+}
+
+nav li a:hover {    
+    border-bottom: 1px solid var(--bg-footer);
+}
+
+nav li a:visited {    
+    color: #000000;
 }
 
 .blue-button {
@@ -89,6 +97,12 @@ ul.n-flex li {
     color: var(--primary-color);
     margin: 15px 0;
     cursor: pointer;
+    transition: opacity 1s ease-in-out, color 1s ease-in-out;
+}
+
+.blue-button:hover{
+    opacity: 0.75;
+    color: var(--whitesmoke);
 }
 
 /* Header */
@@ -119,6 +133,15 @@ h1 {
 i.fa-arrow-down {
     font-size: 45px;
     padding-top: 45px;
+    cursor: pointer;
+}
+
+a i{
+    color: var(--bg-footer);
+}
+
+a i:visited {
+    color: var(--bg-footer);
 }
 
 input {
@@ -257,6 +280,12 @@ h3 {
     border: 1px solid var(--bg-footer);
     width: fit-content;
     padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.partner-button:hover, .buisness-button:hover{
+    background-color: var(--whitesmoke);
 }
 
 /* Section cards */
@@ -382,6 +411,7 @@ h3 {
     background-color: var(--primary-color);
     cursor: pointer;
     padding: 10px 30px;
+    transition: background-color 0.5s;
 }
 
 /* section answer */
@@ -439,7 +469,7 @@ footer h3 {
     font-size: 20px;
 }
 
-ul li {
+footer ul li {
     padding: 10px;
 }
 
@@ -489,6 +519,6 @@ a:visited {
     text-decoration: none
 }
 
-li a:hover {
+footer li a:hover {
     text-decoration: underline;
 }
